@@ -15,7 +15,9 @@ const App = () => {
       setLoading(false);})
     .catch(err => console.log(err));
   };
-  useEffect(()=>{fetchNews()   
+  
+  useEffect(()=>{fetchNews()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[url])
 
   const handleChange = e => {
