@@ -3,7 +3,7 @@ import React,{useEffect,useState} from "react";
 const App = () => {
   const [news,setNews] =useState([]);
   const [searchQuery,setSearchQuery]=useState("react");
-  const [url,setUrl]=useState("http://hn.algolia.com/api/v1/search?query=react");
+  const [url,setUrl]=useState("https://hn.algolia.com/api/v1/search?query=react");
   const [loading,setLoading] = useState(false);
   //fetch news
   const fetchNews =()=> {
