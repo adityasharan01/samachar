@@ -39,7 +39,6 @@ const App = () => {
   <div>
     <h2>{n.title}</h2>
     <a href={n.url}>Link</a>
-    <p key={i}>{n.author}</p>
   </div>));
   return(
     <div>
